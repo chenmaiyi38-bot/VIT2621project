@@ -1,0 +1,97 @@
+/* 全网站样式 */
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #FFF8DC;
+    margin: 0;
+    padding: 0;
+}
+
+/* 标题 */
+
+h1{
+    background-color: #8B4513;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h2{
+    color: #8B4513;
+}
+
+/* 导航栏 */
+
+nav{
+    background-color: #DEB887;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: white;
+}
+
+/* 内容区域 */
+
+.container{
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+
+/* 表格 */
+
+table{
+    width: 80%;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: #8B4513;
+    color: white;
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+/* 图片 */
+
+img{
+    width: 400px;
+    max-width: 100%;
+}
+
+/* 按钮 */
+
+button{
+    background-color: #8B4513;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: brown;
+}
+
+/* Footer */
+
+footer{
+    background-color: #8B4513;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
