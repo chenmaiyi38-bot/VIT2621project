@@ -10,50 +10,106 @@
 
 <body>
 
-    <h1>Our Products</h1>
+<h1>Our Products</h1>
 
-    <hr>
+<nav>
 
-    <a href="index.html">Home</a> |
-    <a href="products.html">Products</a> |
-    <a href="about.html">About Us</a> |
-    <a href="contact.html">Contact Us</a>
+<a href="index.html">Home</a> |
 
-    <hr>
+<a href="products.html">Products</a> |
 
-    <table border="1">
+<a href="about.html">About Us</a> |
 
-        <tr>
-            <th>Drink</th>
-            <th>Price</th>
-        </tr>
+<a href="contact.html">Contact Us</a>
 
-        <tr>
-            <td>Pearl Milk Tea</td>
-            <td>$25</td>
-        </tr>
+</nav>
 
-        <tr>
-            <td>Matcha Milk Tea</td>
-            <td>$30</td>
-        </tr>
+<div class="container">
 
-        <tr>
-            <td>Taro Milk Tea</td>
-            <td>$28</td>
-        </tr>
+<h2>Drink Menu</h2>
 
-        <tr>
-            <td>Red Tea Latte</td>
-            <td>$35</td>
-        </tr>
+<table>
 
-    </table>
+<tr>
+    <th>Drink</th>
+    <th>Price</th>
+</tr>
 
-    <br>
+<tr>
+    <td>Pearl Milk Tea</td>
+    <td>$25</td>
+</tr>
 
-    <img src="https://images.unsplash.com/photo-1515823064-d6e0c04616a7?w=500"
-         width="300">
+<tr>
+    <td>Matcha Milk Tea</td>
+    <td>$30</td>
+</tr>
+
+<tr>
+    <td>Taro Milk Tea</td>
+    <td>$28</td>
+</tr>
+
+<tr>
+    <td>Red Tea Latte</td>
+    <td>$35</td>
+</tr>
+
+</table>
+
+<hr>
+
+<h2>Order Drinks</h2>
+
+<label>Select Drink:</label>
+
+<select id="drink">
+
+<option value="25">
+Pearl Milk Tea ($25)
+</option>
+
+<option value="30">
+Matcha Milk Tea ($30)
+</option>
+
+<option value="28">
+Taro Milk Tea ($28)
+</option>
+
+<option value="35">
+Red Tea Latte ($35)
+</option>
+
+</select>
+
+<br><br>
+
+<label>Quantity:</label>
+
+<input
+type="number"
+id="quantity"
+value="1"
+min="1">
+
+<br><br>
+
+<button onclick="calculateTotal()">
+Calculate Total
+</button>
+
+<h3 id="result"></h3>
+
+</div>
+
+<script src="script.js"></script>
+
+<footer>
+
+<p>© 2026 Milk Tea Paradise</p>
+
+</footer>
 
 </body>
 
